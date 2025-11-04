@@ -29,6 +29,7 @@ body {
     flex-direction: column;
     flex: 1;
     margin: 0;
+    background-color: rgb(20, 20, 20);
 }
 
 /*HEADER*/
@@ -45,15 +46,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
 }
 
 .header-decor {
     position: absolute;
     width: 100%;
-    height: 55vh;
+    height: 100%;
     z-index: -1;
-    background-color: rgb(0, 0, 0);
     transform-origin: top;
     animation: load 1s;
 }
@@ -64,7 +63,7 @@ header {
     min-height: 400px;
     display: flex;
     flex-direction: column;
-    animation: fadeIn 2s forwards;
+    animation: fadeIn 1s forwards;
     opacity: 0;
 }
 
@@ -77,10 +76,10 @@ header {
 }
 
 .description-container {
-    background-color: rgb(255, 255, 255);
+    background-color: #e1e2de;
     display: flex;
     flex-direction: column;
-    margin: 80px 0px 80px 0px;
+    margin: 80px 20px 80px 20px;
     gap: 12px;
     box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.29);
     max-width: 600px;
