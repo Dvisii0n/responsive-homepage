@@ -278,16 +278,18 @@ img.icon:hover {
 
 .stack-section {
     display: flex;
+
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 12px;
-    padding: 0, 30px;
+    padding: 0px 30px;
 }
 
 .stack-icons-container {
     display: grid;
-    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     row-gap: 8px;
     background-color: rgba(31, 31, 31, 0.986);
